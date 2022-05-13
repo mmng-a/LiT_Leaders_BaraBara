@@ -16,6 +16,8 @@
 		BA103FE2282DEE3D0036D1AC /* BaraBaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA103FE1282DEE3D0036D1AC /* BaraBaraTests.swift */; };
 		BA103FEC282DEE3D0036D1AC /* BaraBaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA103FEB282DEE3D0036D1AC /* BaraBaraUITests.swift */; };
 		BA103FEE282DEE3D0036D1AC /* BaraBaraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA103FED282DEE3D0036D1AC /* BaraBaraUITestsLaunchTests.swift */; };
+		BA103FFB282DF14A0036D1AC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA103FFA282DF14A0036D1AC /* GameViewController.swift */; };
+		BA103FFD282DF1560036D1AC /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA103FFC282DF1560036D1AC /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BA103FE7282DEE3D0036D1AC /* BaraBaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaraBaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA103FEB282DEE3D0036D1AC /* BaraBaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaraBaraUITests.swift; sourceTree = "<group>"; };
 		BA103FED282DEE3D0036D1AC /* BaraBaraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaraBaraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA103FFA282DF14A0036D1AC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BA103FFC282DF1560036D1AC /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				BA103FCA282DEE3B0036D1AC /* AppDelegate.swift */,
 				BA103FCC282DEE3B0036D1AC /* SceneDelegate.swift */,
 				BA103FCE282DEE3B0036D1AC /* ViewController.swift */,
+				BA103FFA282DF14A0036D1AC /* GameViewController.swift */,
+				BA103FFC282DF1560036D1AC /* RankingViewController.swift */,
 				BA103FD0282DEE3B0036D1AC /* Main.storyboard */,
 				BA103FD3282DEE3C0036D1AC /* Assets.xcassets */,
 				BA103FD5282DEE3C0036D1AC /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA103FFD282DF1560036D1AC /* RankingViewController.swift in Sources */,
+				BA103FFB282DF14A0036D1AC /* GameViewController.swift in Sources */,
 				BA103FCF282DEE3B0036D1AC /* ViewController.swift in Sources */,
 				BA103FCB282DEE3B0036D1AC /* AppDelegate.swift in Sources */,
 				BA103FCD282DEE3B0036D1AC /* SceneDelegate.swift in Sources */,
